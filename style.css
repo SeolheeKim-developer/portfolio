@@ -97,12 +97,20 @@ p {
 
 /* Navbar */
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
+  background-color: transparent;
   align-items: center;
   color: var(--color-white);
   padding: 16px;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark{
+  background-color: var(--color-pink);
+  padding: 8px;
 }
 
 .navbar__menu {
@@ -149,6 +157,7 @@ p {
   background: url("imgs/home-background.png") center/cover no-repeat;
   padding: 40px;
   text-align: center;
+  padding-top: 100px;
 }
 
 .home__avatar {
@@ -352,8 +361,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 280px;
-  height: 250px;
+  width: 180px;
+  height: 300px;
   margin: 2px;
   background-color: var(--color-light-white);
 }
