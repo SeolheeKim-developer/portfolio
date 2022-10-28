@@ -35,7 +35,7 @@ navbarToggleBtn.addEventListener('click', () =>{
 //Hanlde click on "contact me" button on home
 const homeContactBtn = document.querySelector('.home__contact');
 homeContactBtn.addEventListener('click', () => {
-    scrollIntoView('#about')
+    scrollIntoView('#contact')
 });
 
 //Make home slowly fade to transparent as the window scrolls down
@@ -72,7 +72,10 @@ workBtnContainer.addEventListener('click', (e) =>{
 
     //Remove selection from the previous item and select the new one
     const active = document.querySelector('.category__btn.selected');
-    active.classList.remove('selected');
+    if (active != null) {
+        active.classList.remove('selected');
+    }
+    e.target.classList.add('selected');
     const target = e.target.nodeName ==='BUTTON' ? e.target :
                     e.target.parentNode;
     target.classList.add('selected');
@@ -90,10 +93,6 @@ workBtnContainer.addEventListener('click', (e) =>{
         projectContainer.classList.remove('anim-out');
     }, 300);
 });
-
-
-
-
 
 function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);

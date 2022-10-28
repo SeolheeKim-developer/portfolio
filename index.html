@@ -36,16 +36,16 @@
             
             <a  href="#">Seolhee</a>
         </div>
-        <div class="navbar__menu">
-            <ul class="navbar__menu">
-                <li class="navbar__menu__item active" data-link="#home">Home</li>
-                <li class="navbar__menu__item" data-link="#about">About</li>
-                <li class="navbar__menu__item" data-link="#skills">Skills</li>
-                <li class="navbar__menu__item" data-link="#work">My work</li>
-                <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
-                <li class="navbar__menu__item" data-link="#contact">Contact</li>
-            </ul>
-        </div>
+        
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item active" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">My work</li>
+            <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+        
 
         <!-- Toggle botton-->
         <botton class="navbar__toggle-btn">
@@ -57,10 +57,9 @@
     <section id="home">
         <div class="home__container">
             <img
-            src="imgs/profile.png"
-            alt="Seolhee's profile photo"
-            class="home__avatar"
-            />
+                src="imgs/profile.png"
+                alt="Seolhee's profile photo"
+                class="home__avatar"/>
             <h1 class="home__title">Hello,<br /> I'm Dream Coder</h1>
             <h2 class="home__description">
                 A front-end developer with capability of design
@@ -90,20 +89,20 @@
                 <div class="major__icon">
                     <i class="fab fa-html5"></i>
                 </div>
-                <h2 class="major__title">front-end</h2>
+                <h2 class="major__title">Mobile</h2>
                 <div class="major__description">
-                HTML, CSS, JavaScript, TypeScript,
-                <br />React, Vue, Web, APIs
+                    Android, iOS, React Native, Flutter,
+                    <br />Java, Swift, Kotlin
                 </div>
             </div>
             <div class="major">
                 <div class="major__icon">
                     <i class="fab fa-js"></i>
                 </div>
-                <h2 class="major__title">front-end</h2>
+                <h2 class="major__title">Back-end</h2>
                 <div class="major__description">
-                HTML, CSS, JavaScript, TypeScript,
-                <br />React, Vue, Web, APIs
+                    Java, JavaScript, Go, NodeJS,
+                    <br />Rest APIs, GraphGL
                 </div>
             </div>    
         </div>
@@ -155,14 +154,18 @@
                     </div>
                     <div class="skill__bar">
                         <div class="skill__value" style="width: 99%;"></div>
-                    </div>   
+                    </div>
+                </div>
+                <div class="skill">  
                     <div class="skill__description">
                         <span>CSS</span>
                         <span>80%</span>
                     </div>
+                </div> 
                     <div class="skill__bar">
                         <div class="skill__value" style="width: 80%;"></div>
                     </div>
+                <div class="skill">  
                     <div class="skill__description">
                         <span>JavaScript</span>
                         <span>85%</span>
@@ -170,6 +173,8 @@
                     <div class="skill__bar">
                         <div class="skill__value" style="width: 85%;"></div>
                     </div>
+                </div>
+                <div class="skill"> 
                     <div class="skill__description">
                         <span>TypeScript</span>
                         <span>80%</span>
@@ -183,7 +188,9 @@
                     </div>  
                     <div class="skill__bar">
                         <div class="skill__value" style="width: 80%;"></div>
-                    </div>  
+                    </div> 
+                </div>
+                <div class="skill">  
                     <div class="skill__description">
                         <span>NODEJS</span>
                         <span>75%</span>
@@ -237,109 +244,68 @@
             </button>
         </div>
         <div class="work__projects">
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="front-end"
-            >
-            <img src="imgs/projects/project1.png" alt="Youtube">
+            <a href="" class="project" target="blank" data-type="front-end">
+            <img src="imgs/projects/project1.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="back-end"
-            >
-            <img src="imgs/projects/project2.png" alt="Youtube">
+
+            <a href="" class="project" target="blank" data-type="back-end">
+            <img src="imgs/projects/project2.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="front-end"
-            >
-            <img src="imgs/projects/project3.png" alt="Youtube">
+
+            <a href="" class="project" target="blank" data-type="front-end">
+            <img src="imgs/projects/project3.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="mobile"
-            >
-            <img src="imgs/projects/project4.png" alt="Youtube">
+
+            <a href="" class="project" target="blank" data-type="mobile">
+            <img src="imgs/projects/project4.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="front-end"
-            >
-            <img src="imgs/projects/project5.png" alt="Youtube">
+
+            <a href="" class="project" target="blank" data-type="front-end">
+            <img src="imgs/projects/project5.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="back-end"
-            >
-            <img src="imgs/projects/project1.png" alt="Youtube">
+
+            <a href="" class="project" target="blank" data-type="back-end">
+            <img src="imgs/projects/project1.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="back-end"
-            >
-            <img src="imgs/projects/project4.png" alt="Youtube">
+
+            <a href="" class="project" target="blank" data-type="back-end">
+            <img src="imgs/projects/project4.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
-            <a 
-                href="" 
-                class="project"
-                target="blank"
-                data-type="front-end"
-            >
-            <img src="imgs/projects/project6.png" alt="Youtube">
+
+            <a href="" class="project" target="blank" data-type="front-end">
+            <img src="imgs/projects/project6.png" alt="Youtube" class="project__img">
             <div class="project__description">
                 <h3>Youtube Site</h3>
                 <span>Clone coding with HTML and CSS</span>
             </div>
-
             </a>
         </div>
     </div>    
@@ -357,7 +323,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit excepturi, modi architecto nostrum deleniti voluptate, necessitatibus 
                     vel consectetur non itaque in esse sapiente. Autem aut praesentium quis possimus explicabo commodi.m
                 </p>
-                <p class="name"><a href="Seolhee"> Kevin Campigotto</a> / ABC Grobal Technologies </p>
+                <p class="name"><a href="">Seolhee</a> / ABC Grobal Technologies </p>
                 </div>
             </div>
         
@@ -379,7 +345,7 @@
         <h1 class="contact__title">Let's talk</h1>
         <h2 class="contact__email">seolhee@campigotto.com</h2>
         <div class="contact__links">
-            <a href="" target="_blank">
+            <a href="#" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
             <a href="" target="_blank">
